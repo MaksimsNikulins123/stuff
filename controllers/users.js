@@ -22,7 +22,7 @@ const login = async (req, res) => {
         }
     });
 
-    const isPasswordCorrect = user && ( await bc)
+    const isPasswordCorrect = user && ( await bcrypt)
 
 }
 const register = async (req, res) => {
